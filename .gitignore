@@ -1,0 +1,5 @@
+# NodeJS Dependency directory
+node_modules
+
+#builds dir
+build

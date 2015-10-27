@@ -1,0 +1,33 @@
+{
+  "name": "buzz",
+  "version": "1.0.0",
+  "description": "Electron based casparCG controller",
+  "main": "./build/browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moschopsuk/buzz.git"
+  },
+  "keywords": [
+    "CasparCG",
+    "electron",
+    "la1tv"
+  ],
+  "author": "Luke Moscrop",
+  "license": "ISC",
+  "electron-version": "0.27.2",
+  "bugs": {
+    "url": "https://github.com/moschopsuk/buzz/issues"
+  },
+  "homepage": "https://github.com/moschopsuk/buzz#readme",
+  "dependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.3.0"
+  }
+}
