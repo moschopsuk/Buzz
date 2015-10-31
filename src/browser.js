@@ -13,6 +13,8 @@ app.on('ready', function(){
 
     mainWindow.loadUrl(path.normalize('file://' + path.join(__dirname, 'index.html')));
 
+    mainWindow.openDevTools();
+
     mainWindow.webContents.on('did-finish-load', function() {
         mainWindow.setTitle('LA1:TV CasparCG Client');
         mainWindow.show();
